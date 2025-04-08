@@ -25,6 +25,66 @@
     </header>
     
     <!-- insert form here -->
+     <form>
+        <fieldset>
+            <ul>
+            <legend>Your Details</legend>
+            <li>
+                <label for="fname">First name</label>
+            <input id="fname" type="text" autofocus="true" required>
+        </li>
+        <li>
+            <label for="sname">Surname</label>
+            <input id="sname" type="text">
+        </li>
+        <li>
+            <label for="pos">Position / Role</label>
+            <input id="pos" type="text">
+        </li>
+        <li>
+            <label for="email">email</label>
+            <input id="email" type="email" placeholder="you@domain.com" required>
+        </li>
+        <li>
+            <label for="phone">email</label>
+            <input id="phone" type="tel" placeholder="Eg. +447500000000" required>
+        </li>
+        </ul>
+
+        </fieldset>
+
+        <fieldset>
+
+            <ul>
+                <li>
+                    <select name="dropcourse" size="1">
+                        <option selected> Programming with JavaScript
+
+                        </option>
+                        <option> Developing Web Applicagtions using HTML5
+                            
+                        </option>
+                        <option> Developing Responsive Websites
+                            
+                        </option>
+                        <option> Leveraging the Power of jQuery
+                            
+                        </option>
+                    </select>
+                    <label for="dels">Number of delegates</label>
+            <input id="dels" type="number"> 
+
+            <label for="date">Date</label>
+            <input id="date" type="date"> 
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+
+            <input type="submit" name="subbtn" value = "Submit">
+        </fieldset>
+     </form>
     
 </body>
 </html>

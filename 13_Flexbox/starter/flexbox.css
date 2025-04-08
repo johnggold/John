@@ -12,6 +12,36 @@
     text-align: center;
 }
 
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid silver;
+    display: flex;
+}
+
+.direction {
+    flex-direction: row;
+   
+}
+
+.justify {
+   justify-content: center;
+
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
 .wrap li {
     background: gold;
 }
