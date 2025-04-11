@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Courseware\\QAHTMLCSS\\05_Forms\\starter\\registration.html"
+            "file": "c:\\Courseware\\QAHTMLCSS\\06_Selectors\\sarter\\index.html"
         }
     ]
 }
